@@ -57,6 +57,28 @@ let coffeearray=[
         rating:"4.3",
         description:"A layered drink with sweet strawberry matcha, and milk.",
         ingredients: ["matcha","strawberry puree", "milk"],
-        image:"assets/berrymatcha.jpg"
+        image:"assets/berrymatcha.jpg",
+    },
+    {
+        name:"House Cold Brew",
+        price:4.00,
+        type:"Iced",
+        milk:"none",
+        caffeine:"200",
+        rating:"4.1",
+        description:"Smooth, cold brew with deep flavor.",
+        ingredients:["cold brew coffee"],
+        image:"assets/coldbrew.jpg",
+    },
+    {
+        name:"Nitro Cold Brew",
+        price:4.25,
+        type:"Iced",
+        milk:"none",
+        caffeine:"250",
+        rating:"4.2",
+        description:"Cold brew infused with nitrogen for a creamy texture.",
+        ingredients:["nitro cold brew coffee"],
+        image:"assets/nitrocoldbrew.webp",
     }
 ];
