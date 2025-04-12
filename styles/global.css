@@ -1,0 +1,54 @@
+.search-wrapper {
+    display: flex;
+     /* stack on top of each other */
+    flex-direction: column;
+    /* space out between coffee search and box */
+    gap: .25rem;
+}
+
+input {
+    /* font size is the same as the rest of our page */
+    font-size: 1rem;
+}
+
+.user-cards {
+    display: grid;
+    /* sets minimum and maximum size */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+}
+
+.card {
+    border: 1px black;
+    background-color: white;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+/* hide the parts */
+.card:hover .price, 
+.card:hover label,
+.card:hover .ingredients
+{
+    display: block;
+}
+
+.price, label, .ingredients {
+    display: none;
+
+}
+
+.card > .coffee-name {
+    margin-bottom: .25rem;
+}
+
+.card > .description {
+    font-size: .8rem;
+    color: #777;
+}
+
+/* hide */
+.hide {
+    display: none;
+}
