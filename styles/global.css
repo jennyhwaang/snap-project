@@ -26,15 +26,7 @@ input {
     cursor: pointer;
 }
 
-/* hide the parts */
-.card:hover .price, 
-.card:hover label,
-.card:hover .ingredients
-{
-    display: block;
-}
-
-.price, label, .ingredients {
+.price, .card label, .ingredients {
     display: none;
 
 }
