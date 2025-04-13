@@ -1,0 +1,9 @@
+.menu-container {
+  background-color: #fdcdac;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container img {
+  width: 60%;
+}

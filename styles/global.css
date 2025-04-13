@@ -1,3 +1,13 @@
+/* everything */
+* {
+  font-family: "Inter", Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px;
+  background-color: #322e2b;
+}
+
 .search-wrapper {
   display: flex;
   /* stack on top of each other */
@@ -44,84 +54,4 @@ input {
 /* hide */
 .hide {
   display: none;
-}
-
-/* menu page title */
-h1 {
-  text-align: center;
-  font-family: "Caveat", cursive;
-  font-size: 50px;
-}
-
-/* everything */
-* {
-  font-family: "Inter", Helvetica, sans-serif;
-}
-
-/* transision of my menu title */
-/* This applies the fade-in animation to the h1 when the page loads */
-h1 {
-  /* Use the animation called "fadeIn" */
-  animation: fadeIn 0.8s ease-in-out;
-  /* 
-    - 0.8s = duration of the animation (0.8 seconds)
-    - ease-in-out = starts and ends smoothly
-    */
-}
-
-/* keyframe is a css rule that defines an animation, it tells the browser how something should change over time */
-/* Define the keyframes for the "fadeIn" animation */
-@keyframes fadeIn {
-  /* Starting point of the animation */
-  from {
-    /* text is invisible */
-    opacity: 0;
-    /* text is moved up a little */
-    transform: translateY(-20px);
-  }
-  /* Ending point of the animation */
-  to {
-    /* text is fully visible */
-    opacity: 1;
-    /* text is back in its normal spot */
-    transform: translateY(0);
-  }
-}
-
-.logo {
-  text-align: left; /* aligns content inside to the left */
-  padding-left: 5rem; /* space from the edge */
-  margin-top: 10rem;
-}
-
-.logo img {
-  display: block; /* remove default inline spacing */
-  width: 200px; /* size it down */
-  height: auto;
-  margin: 0; /* make sure no auto-centering */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional shadow */
-  border-radius: 20px;
-}
-
-.profile-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 40px;
-}
-
-.profile-pic {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-}
-
-.profile-desc {
-  max-width: 500px;
-  font-size: 18px;
-  color: #333;
 }

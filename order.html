@@ -12,6 +12,9 @@
     />
     <link rel="stylesheet" href="/styles/global.css" />
     <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/order.css" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order - Jenny Bean</title>
@@ -31,49 +34,64 @@
         <a href="order.html">ORDER</a>
       </div>
     </header>
-    <h1>Order Ahead</h1>
 
-    <div class="search-wrapper">
-      <label for="search">Search Coffee</label>
-      <input type="search" id="search" data-search />
-    </div>
+    <div class="main-content">
+      <h1>Order Ahead</h1>
 
-    <div id="filter-name-options">
-      <label><input type="checkbox" value="latte" />latte</label>
-      <label><input type="checkbox" value="matcha" />matcha</label>
-      <label><input type="checkbox" value="espresso" />espresso</label>
-    </div>
-
-    <div id="filter-type-options">
-      <label><input type="checkbox" value="iced" />iced</label>
-      <label><input type="checkbox" value="hot" />hot</label>
-    </div>
-
-    <div id="filter-rating-options">
-      <label><input type="checkbox" value="5" />5 stars</label>
-      <label><input type="checkbox" value="4" />4 stars</label>
-      <label><input type="checkbox" value="3" />3 stars</label>
-    </div>
-
-    <div class="user-cards" data-user-cards-container></div>
-
-    <template data-user-template>
-      <div class="card">
-        <img
-          src=""
-          alt=""
-          style="width: 100%; height: 120px; object-fit: cover"
-        />
-        <div class="coffee-name" data-coffee-name></div>
-        <div class="price" data-price></div>
-        <div class="caffeine" data-caffeine></div>
-        <div class="description" data-description></div>
-        <div class="ingredients" data-ingredients></div>
-        <label> Size:<select data-size></select> </label>
-        <label> type:<select data-type></select> </label>
-        <label> milk:<select data-milk></select> </label>
-        <div class="rating" data-rating></div>
+      <div class="search-wrapper">
+        <label for="search">Search Coffee</label>
+        <input type="search" id="search" data-search />
       </div>
-    </template>
+
+      <div id="filter-name-options">
+        <label><input type="checkbox" value="latte" />latte</label>
+        <label><input type="checkbox" value="matcha" />matcha</label>
+        <label><input type="checkbox" value="espresso" />espresso</label>
+      </div>
+
+      <div id="filter-type-options">
+        <label><input type="checkbox" value="iced" />iced</label>
+        <label><input type="checkbox" value="hot" />hot</label>
+      </div>
+
+      <div id="filter-rating-options">
+        <label><input type="checkbox" value="5" />5 stars</label>
+        <label><input type="checkbox" value="4" />4 stars</label>
+        <label><input type="checkbox" value="3" />3 stars</label>
+      </div>
+
+      <div class="user-cards" data-user-cards-container></div>
+
+      <template data-user-template>
+        <div class="card">
+          <img
+            src=""
+            alt=""
+            style="width: 100%; height: 120px; object-fit: cover"
+          />
+          <div class="coffee-name" data-coffee-name></div>
+          <div class="price" data-price></div>
+          <div class="caffeine" data-caffeine></div>
+          <div class="description" data-description></div>
+          <div class="ingredients" data-ingredients></div>
+          <label> Size:<select data-size></select> </label>
+          <label> type:<select data-type></select> </label>
+          <label> milk:<select data-milk></select> </label>
+          <div class="rating" data-rating></div>
+        </div>
+      </template>
+    </div>
+
+    <footer>
+      <p><b>© 2025 Jenny Bean.</b></p>
+      <p>
+        This website was created as part of a
+        <b>Snapchat Academy 2025</b> project submission.
+      </p>
+      <p>
+        Jenny Bean is a fictional coffee shop and does not represent a real
+        business.
+      </p>
+    </footer>
   </body>
 </html>

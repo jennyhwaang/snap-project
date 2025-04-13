@@ -50,6 +50,7 @@
 
 .about-container > :last-child {
   padding-block: 75px;
+  background-color: white;
 }
 
 .about-container > :first-child img {
