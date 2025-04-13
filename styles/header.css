@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: #fdcdac;
+  background-color: #322e2b;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -22,11 +22,11 @@ header {
 }
 
 .header-links a {
-  color: #854420;
+  color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .header-img {
-  width: 125px;
+  width: 80px;
 }
