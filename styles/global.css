@@ -8,27 +8,6 @@ body {
   background-color: #322e2b;
 }
 
-.search-wrapper {
-  display: flex;
-  /* stack on top of each other */
-  flex-direction: column;
-  /* space out between coffee search and box */
-  gap: 0.25rem;
-}
-
-input {
-  /* font size is the same as the rest of our page */
-  font-size: 1rem;
-}
-
-.user-cards {
-  display: grid;
-  /* sets minimum and maximum size */
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 0.25rem;
-  margin-top: 1rem;
-}
-
 .card {
   border: 1px black;
   background-color: white;

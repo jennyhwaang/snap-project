@@ -63,6 +63,6 @@ function filterCoffeesby(field, terms) {
         }
       }
     }
-    user.element.style.display = matches ? "block" : "none";
+    user.element.style.display = matches ? "flex" : "none";
   });
 }

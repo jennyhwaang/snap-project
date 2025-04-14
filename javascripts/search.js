@@ -20,7 +20,7 @@ let users = coffeearray.map((coffee) => {
   caffeine.textContent = coffee.caffeine + "mg";
   description.textContent = coffee.description;
   ingredients.textContent = coffee.ingredients;
-  rating.textContent = coffee.rating;
+  rating.textContent = "Customer Rating: " + coffee.rating + " stars";
   img.src = coffee.image;
   img.alt = coffee.name;
 

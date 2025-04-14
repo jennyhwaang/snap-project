@@ -1,3 +1,137 @@
 .main-content {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+  padding-top: 50px;
+}
+
+.main-content h1 {
+  font-family: "vidaloka", sans-serif;
+}
+
+.order-options {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  margin-block: 30px;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.drop-down {
+  position: relative;
+}
+
+.drop-down-toggle {
+  padding-block: 15px;
+  padding-inline: 20px;
+  cursor: pointer;
+  background-color: #322e2b;
+  color: white;
+  border-radius: 40px;
+  font-size: 14px;
+  width: max-content;
+}
+.search-wrapper input {
+  padding: 15px;
+  width: 900px;
+  border-radius: 40px;
+  border: 0.8px solid black;
+}
+
+.filter-menu {
+  display: none;
+  background-color: #322e2b;
+  color: white;
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 150px;
+  padding-inline: 30px;
+  padding-block: 20px;
+  border-radius: 15px;
+  transform: translate(-50%, 0);
+}
+
+.filter-menu p {
+  margin-block: 0px;
+}
+
+.filter-menu div {
+  display: flex;
+  flex-direction: column;
+  margin-block: 10px;
+  gap: 5px;
+}
+
+.coffee-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 30px;
+  margin-bottom: 70px;
+}
+
+.card {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+  padding-inline: 20px;
+  border: 0.8px solid black;
+  border-radius: 5px;
+  height: 120px;
+}
+
+.card img {
+  width: 100px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.card-content {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.coffee-name {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Spectral", serif;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.caffeine {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.description {
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.rating {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.hide {
+  display: none;
 }
