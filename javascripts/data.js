@@ -135,7 +135,7 @@ let coffeearray = [
   {
     name: "Caramel Macchiato",
     price: 6.55,
-    type: ["Iced or Hot"],
+    type: ["Hot", "Iced"],
     size: ["small", "medium", "large"],
     milk: ["Oat milk", "Almond", "Dairy", "Soy"],
     caffeine: "150",
@@ -172,7 +172,7 @@ let coffeearray = [
   {
     name: "Chai Latte",
     price: 3.1,
-    type: ["Hot and Iced"],
+    type: ["Hot", "Iced"],
     size: ["small", "medium", "large"],
     milk: ["Oat milk", "Almond", "Dairy", "Soy"],
     caffeine: "95",
@@ -184,7 +184,7 @@ let coffeearray = [
   {
     name: "Pumpkin Spice Latte",
     price: 3.3,
-    type: ["Hot and Iced"],
+    type: ["Hot", "Iced"],
     size: ["small", "medium", "large"],
     milk: ["Oat milk", "Almond", "Dairy", "Soy"],
     caffeine: "75",
@@ -198,7 +198,7 @@ let coffeearray = [
   {
     name: "Black Iced Tea",
     price: 4.3,
-    type: ["Hot and Iced"],
+    type: ["Hot", "Iced"],
     size: ["small", "medium", "large"],
     milk: ["none"],
     caffeine: "45",
@@ -211,7 +211,7 @@ let coffeearray = [
   {
     name: "Peach Iced Tea",
     price: 4.3,
-    type: ["Hot and Iced"],
+    type: ["Hot", "Iced"],
     size: ["small", "medium", "large"],
     milk: ["none"],
     caffeine: "55",
@@ -250,7 +250,7 @@ let coffeearray = [
   {
     name: "Lavender Latte",
     price: 7.5,
-    type: ["Iced and Hot"],
+    type: ["Hot", "Iced"],
     size: ["small", "medium", "large"],
     milk: ["Oat milk", "Almond", "Dairy", "Soy"],
     caffeine: "100",
