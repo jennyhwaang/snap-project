@@ -54,6 +54,9 @@ let users = coffeearray.map((coffee) => {
     milkList.appendChild(option);
   });
 
+  // For pop up modal, taken from popup.js
+  populatePopup(card, coffee);
+
   userCardContainer.append(card);
   return {
     name: coffee.name,

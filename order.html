@@ -32,6 +32,7 @@
     <!-- JS scripts (in order!) -->
     <!-- defer = load it last -->
     <script src="javascripts/data.js" defer></script>
+    <script src="javascripts/popup.js" defer></script>
     <script src="javascripts/search.js" defer></script>
     <script src="javascripts/filter.js" defer></script>
     <script src="javascripts/filtermenu.js" defer></script>
@@ -49,6 +50,8 @@
     </header>
 
     <div class="main-content">
+      <div class="cart-counter">🛒 Cart: <span id="cart-count">0</span></div>
+
       <h1>ORDER AHEAD</h1>
 
       <div class="order-options">
@@ -81,6 +84,9 @@
                   type="checkbox"
                   value=" chocolate "
                 />non-caffeine</label
+              >
+              <label
+                ><input type="checkbox" value="cold brew " />cold brew</label
               >
             </div>
 
@@ -120,6 +126,32 @@
           <img src="" alt="" />
         </div>
       </template>
+    </div>
+
+    <div class="pop-up-container">
+      <img src="" />
+
+      <div class="name-container">
+        <p class="coffee-name" data-coffee-name>Drink Name</p>
+        <p class="caffeine" data-caffeine>Drink Caffeine</p>
+      </div>
+
+      <p class="pop-up-price" data-price>Drink Price</p>
+      <p class="description" data-description>Drink Description</p>
+      <p class="ingredients" data-ingredients>Ingredients</p>
+      <p class="rating" data-rating>Rating</p>
+
+      <label> Size:<select data-size></select> </label>
+      <label> type:<select data-type></select> </label>
+      <label> milk:<select data-milk></select> </label>
+      <br />
+
+      <label
+        >Quantity:<input type="number" class="quantity-input" min="1" value="1"
+      /></label>
+      <button class="add-to-cart">Add to Cart</button>
+      <br />
+      <button class="close-btn">X</button>
     </div>
 
     <footer>

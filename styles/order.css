@@ -135,3 +135,32 @@
 .hide {
   display: none;
 }
+
+body {
+  position: relative;
+}
+
+.pop-up-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 40%;
+  height: 80%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pop-up-container img {
+  width: 100%;
+  background-color: aqua;
+  height: 50%;
+  object-fit: cover;
+}
+
+.cart-counter {
+  width: 90%;
+  text-align: right;
+}

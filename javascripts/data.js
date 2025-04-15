@@ -80,7 +80,7 @@ let coffeearray = [
     milk: ["none"],
     caffeine: "250",
     rating: "4.2",
-    description: "Cold brew infused with nitrogen for a creamy texture",
+    description: "cold brew infused with nitrogen for a creamy texture",
     ingredients: "nitro cold brew coffee",
     image: "assets/nitrocoldbrew.webp",
   },
@@ -177,7 +177,7 @@ let coffeearray = [
     milk: ["Oat milk", "Almond", "Dairy", "Soy"],
     caffeine: "95",
     rating: "3.4",
-    description: "Spiced black tea with steamed milk, cozy and aromatic",
+    description: "Spiced with steamed milk, cozy and aromatic latte",
     ingredients: "Chai tea and steamed milk",
     image: "assets/chai.webp",
   },
@@ -190,7 +190,7 @@ let coffeearray = [
     caffeine: "75",
     rating: "3.5",
     description:
-      "A fall favorite with pumpkin, cinnamon, nutmeg, and clove flavors",
+      "A fall favorite with pumpkin, cinnamon, nutmeg, and clove flavors latte",
     ingredients:
       "Espresso, steamed milk, pumpkin spice syrup, whipped cream, and pumpkin spice syrup",
     image: "assets/pumpkin.webp",
@@ -204,7 +204,7 @@ let coffeearray = [
     caffeine: "45",
     rating: "4.3",
     description:
-      "Bold and refreshing brewed black tea, served chilled over ice",
+      "Bold and refreshing brewed black tea , served chilled over ice",
     ingredients: "Black tea",
     image: "assets/blacktea.webp",
   },
@@ -243,7 +243,7 @@ let coffeearray = [
     caffeine: "85",
     rating: "5.0",
     description:
-      "Tangy, creamy Yakult mixed with refreshing green tea over ice",
+      "Tangy, creamy Yakult mixed with refreshing green iced tea over ice",
     ingredients: "Green Tea and Yakult",
     image: "assets/greentea.jpg",
   },
@@ -256,7 +256,7 @@ let coffeearray = [
     caffeine: "100",
     rating: "3.5",
     description:
-      "Floral and calming, made with lavender syrup, espresso, and steamed milk",
+      "Floral and calming Latte, made with lavender syrup, espresso, and steamed milk",
     ingredients: "Espresso, steamed milk, and lavender syrup",
     image: "assets/lav.jpg",
   },
