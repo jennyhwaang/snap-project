@@ -128,30 +128,41 @@
       </template>
     </div>
 
-    <div class="pop-up-container">
+    <div class="pop-up-container" style="display: none">
       <img src="" />
 
-      <div class="name-container">
-        <p class="coffee-name" data-coffee-name>Drink Name</p>
-        <p class="caffeine" data-caffeine>Drink Caffeine</p>
+      <div class="pop-up-content">
+        <div class="name-container">
+          <p class="coffee-name" data-coffee-name>Drink Name</p>
+          <p class="caffeine" data-caffeine>Drink Caffeine</p>
+        </div>
+
+        <p class="popup-price" data-price>Drink Price</p>
+
+        <p data-description class="description">Drink Description</p>
+        <p class="ingredients" data-ingredients>Ingredients</p>
+        <p class="rating" data-rating>Rating</p>
+
+        <div class="pop-up-options">
+          <label>Size:<select data-size></select> </label>
+          <label>Type:<select data-type></select> </label>
+          <label>Milk:<select data-milk></select> </label>
+        </div>
+        <br />
+
+        <div class="quantity-container">
+          <button type="button" class="qty-btn minus">–</button>
+          <input type="number" class="quantity-input" min="1" value="1" />
+          <button type="button" class="qty-btn plus">+</button>
+        </div>
+
+        <br />
+
+        <div class="pop-up-footer-container">
+          <p class="close-btn">X</p>
+          <p class="add-to-cart">Add to Cart</p>
+        </div>
       </div>
-
-      <p class="pop-up-price" data-price>Drink Price</p>
-      <p class="description" data-description>Drink Description</p>
-      <p class="ingredients" data-ingredients>Ingredients</p>
-      <p class="rating" data-rating>Rating</p>
-
-      <label> Size:<select data-size></select> </label>
-      <label> type:<select data-type></select> </label>
-      <label> milk:<select data-milk></select> </label>
-      <br />
-
-      <label
-        >Quantity:<input type="number" class="quantity-input" min="1" value="1"
-      /></label>
-      <button class="add-to-cart">Add to Cart</button>
-      <br />
-      <button class="close-btn">X</button>
     </div>
 
     <footer>

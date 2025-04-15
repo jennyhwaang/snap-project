@@ -65,3 +65,16 @@ function populatePopup(card, coffee) {
     modal.style.display = "block";
   });
 }
+
+const minusBtn = document.querySelector(".qty-btn.minus");
+const plusBtn = document.querySelector(".qty-btn.plus");
+
+minusBtn.addEventListener("click", () => {
+  let value = parseInt(quantityInput.value);
+  if (value > 1) quantityInput.value = value - 1;
+});
+
+plusBtn.addEventListener("click", () => {
+  let value = parseInt(quantityInput.value);
+  quantityInput.value = value + 1;
+});
